@@ -1,0 +1,116 @@
+/* Este archivo de estilo define la apariencia visual de la página HTML */
+
+/* Estilos generales para el cuerpo de la página */
+body {
+    background-color: rgba(255, 255, 255, 0); /* Fondo negro */
+    font-family: 'Courier New', Courier, monospace; /* Fuente de texto */
+}
+
+/* Estilos para el título principal */
+h1 {
+    color: rgb(0, 0, 0); /* Color del texto */
+    text-align: center; /* Alineación central */
+    font-size: 48px; /* Tamaño de fuente */
+}
+
+/* Estilos para la imagen personal */
+img {
+    position: relative; /* Posición relativa */
+    left: 15cm; /* Desplazamiento horizontal */
+    border-radius: 10px; /* Borde redondeado */
+    top: -0.5cm; /* Desplazamiento vertical */
+}
+
+/* Estilos para el contenedor principal */
+.contenedor1 {
+    background-color: rgb(109, 192, 240); /* Fondo negro */
+    width: 24cm; /* Ancho del contenedor */
+    position: relative; /* Posición relativa */
+    left: 7cm; /* Desplazamiento horizontal */
+    border-radius: 10px; /* Borde redondeado */
+}
+
+/* Estilos para los datos personales */
+.datospersonales {
+    color: rgb(0, 0, 0); /* Color del texto */
+    text-align: center; /* Alineación central */
+    font-size: 16px; /* Tamaño de fuente */
+}
+
+/* Estilos para la descripción personal */
+.descripcion {
+    color: rgb(21, 21, 21); /* Color del texto */
+    width: 22cm; /* Ancho del elemento */
+    left: 1cm; /* Desplazamiento horizontal */
+    text-align: justify; /* Alineación justificada */
+    position: relative; /* Posición relativa */
+    font-size: 20px; /* Tamaño de fuente */
+}
+
+/* Estilos para los títulos secundarios */
+h2 {
+    color: rgb(0, 0, 0); /* Color del texto */
+    text-decoration: underline; /* Subrayado */
+    position: relative; /* Posición relativa */
+    left: 8cm; /* Desplazamiento horizontal */
+}
+
+/* Estilos para los contenedores de datos secundarios */
+.cont {
+    background-color: rgb(109, 192, 240); /* Fondo de color */
+    width: 22cm; /* Ancho del contenedor */
+    position: relative; /* Posición relativa */
+    left: 8cm; /* Desplazamiento horizontal */
+    border-radius: 5px; /* Borde redondeado */
+}
+
+/* Estilos para el diseño de cuadrícula */
+.grid {
+    border-radius: 5px; /* Borde redondeado */
+    height: 4.2cm; /* Altura de la cuadrícula */
+    width: 26.5cm; /* Ancho de la cuadrícula */
+    display: grid; /* Diseño de cuadrícula */
+    grid-template-columns: 5cm 5cm 5cm 5cm 6.28cm; /* Tamaño de las columnas */
+    grid-auto-rows: 0.7cm; /* Altura automática de las filas */
+    grid-gap: 2px; /* Espacio entre celdas */
+    background-color: rgb(109, 192, 240); /* Fondo de color */
+    padding: 5px; /* Espaciado interno */
+    position: relative; /* Posición relativa */
+    left: 5.5cm; /* Desplazamiento horizontal */
+}
+
+/* Estilos para el título de la cuadrícula */
+.titulo {
+    padding: auto;
+    grid-column-start: 1; /* Comienzo de la columna */
+    grid-column-end: 6; /* Fin de la columna */
+    width: 26.5cm; /* Ancho del título */
+    display: flex; /* Diseño flexible */
+    font-size: 24px; /* Tamaño de fuente */
+    font-weight: bold; /* Fuente en negrita */
+    justify-content: center; /* Alineación centrada horizontal */
+    align-items: center; /* Alineación centrada vertical */
+    text-decoration: underline; /* Subrayado */
+    color: rgb(15, 15, 15); /* Color del texto */
+    background-color: rgb(109, 192, 240); /* Fondo negro */
+}
+
+/* Estilos para los encabezados de la cuadrícula */
+.superior {
+    background-color: rgb(109, 192, 240); /* Fondo negro */
+    font-size: 20px; /* Tamaño de fuente */
+    font-weight: bold; /* Fuente en negrita */
+    text-align: center; /* Alineación centrada */
+    color: rgb(3, 3, 3); /* Color del texto */
+    display: grid; /* Diseño de cuadrícula */
+    grid-gap: 1px; /* Espacio entre celdas */
+    width: 100%; /* Ancho del elemento */
+}
+
+/* Estilos para los datos en la cuadrícula */
+.datos {
+    text-align: center; /* Alineación centrada */
+    padding: 20px 0; /* Espaciado interno */
+    font-size: 15px; /* Tamaño de fuente */
+}
+
